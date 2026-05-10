@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" fill="none">
+  <!-- Background frame -->
+  <rect x="2" y="2" width="516" height="116" rx="12" ry="12" fill="#F6F2E8" stroke="#B08A3B" stroke-width="1.5"/>
+  <rect x="6" y="6" width="508" height="108" rx="9" ry="9" fill="none" stroke="#10362D" stroke-width="2"/>
+
+  <!-- Corner ornaments -->
+  <text x="14" y="22" font-size="14" fill="#B08A3B" font-family="serif">✦</text>
+  <text x="494" y="22" font-size="14" fill="#B08A3B" font-family="serif">✦</text>
+  <text x="14" y="112" font-size="14" fill="#B08A3B" font-family="serif">✦</text>
+  <text x="494" y="112" font-size="14" fill="#B08A3B" font-family="serif">✦</text>
+
+  <!-- Top gold line decoration -->
+  <line x1="30" y1="18" x2="240" y2="18" stroke="#B08A3B" stroke-width="0.8" opacity="0.6"/>
+  <line x1="280" y1="18" x2="490" y2="18" stroke="#B08A3B" stroke-width="0.8" opacity="0.6"/>
+  <text x="252" y="22" font-size="10" fill="#B08A3B" font-family="serif" text-anchor="middle">❧</text>
+
+  <!-- Lantern icon -->
+  <g transform="translate(28, 28)">
+    <!-- Pole -->
+    <line x1="12" y1="10" x2="12" y2="62" stroke="#10362D" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Arm curve -->
+    <path d="M12 10 Q12 4 20 4" stroke="#10362D" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Hook -->
+    <path d="M20 4 Q28 4 28 12" stroke="#10362D" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Lantern body -->
+    <rect x="22" y="12" width="12" height="18" rx="2" fill="#B08A3B" opacity="0.9"/>
+    <rect x="24" y="14" width="8" height="14" rx="1" fill="#F6F2E8" opacity="0.8"/>
+    <!-- Lantern top -->
+    <path d="M21 12 L28 7 L35 12" stroke="#10362D" stroke-width="1.5" fill="#B08A3B"/>
+    <!-- Lantern bottom -->
+    <path d="M22 30 L25 34 L31 34 L34 30" fill="#B08A3B"/>
+    <!-- Base -->
+    <rect x="6" y="62" width="12" height="3" rx="1.5" fill="#10362D"/>
+  </g>
+
+  <!-- Main text "The Quiet Place" -->
+  <text x="290" y="72" 
+        font-family="Georgia, 'Times New Roman', serif" 
+        font-size="42" 
+        font-weight="normal"
+        fill="#10362D" 
+        text-anchor="middle"
+        letter-spacing="1">The Quiet Place</text>
+
+  <!-- Subtitle -->
+  <text x="290" y="92"
+        font-family="Georgia, serif"
+        font-size="9"
+        fill="#B08A3B"
+        text-anchor="middle"
+        letter-spacing="4">QUIET · CULTURED · TIMELESS</text>
+
+  <!-- Bottom gold line decoration -->
+  <line x1="30" y1="102" x2="220" y2="102" stroke="#B08A3B" stroke-width="0.8" opacity="0.6"/>
+  <line x1="360" y1="102" x2="490" y2="102" stroke="#B08A3B" stroke-width="0.8" opacity="0.6"/>
+  <text x="290" y="106" font-size="10" fill="#B08A3B" font-family="serif" text-anchor="middle">❧</text>
+</svg>
